@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("./HelveticaNowDisplay-ExtBdlta.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background: #e9e5df;
+    position: relative;
+    overflow: hidden;
+}
+
+/* NAVIGATION */
+
+#nav {
+    width: 100%;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+#nav a {
+    color: #111;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+#nav h2 {
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 4px;
+}
+
+#right a:last-child {
+    margin-right: 0;
+}
+
+/* MAIN HEADING */
+
+#heading {
+    font-size: 250px;
+    padding-left: 50px;
+    font-weight: 400;
+    position: relative;
+    z-index: 5;
+    margin-top: 30px;
+    letter-spacing: -12px;
+}
+
+/* IMAGE SECTION */
+
+#images {
+    width: 65%;
+    height: 500px;
+    position: absolute;
+    top: 42%;
+    right: 2%;
+}
+
+#images img {
+    position: absolute;
+    object-fit: cover;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* FIRST IMAGE */
+
+#first {
+    width: 250px;
+    height: 350px;
+    top: 0;
+    right: 5%;
+    z-index: 3;
+}
+
+/* SECOND IMAGE */
+
+#second {
+    width: 220px;
+    height: 300px;
+    top: 50px;
+    left: 8%;
+    z-index: 2;
+}
+
+/* THIRD IMAGE */
+
+#third {
+    width: 280px;
+    height: 200px;
+    bottom: 0;
+    left: 35%;
+    z-index: 4;
+}
+
+/* PRODUCT DETAILS */
+
+#btmleft {
+    width: 280px;
+    position: absolute;
+    bottom: 17%;
+    left: 5%;
+    z-index: 5;
+}
+
+#btmleft h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#btmleft p {
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+#btmleft h4 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* BOTTOM BAR */
+
+#bottombar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#bottombar h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#bottombar a {
+    color: #111;
+    text-decoration: none;
+    font-size: 22px;
+}
